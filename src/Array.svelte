@@ -36,7 +36,7 @@
 </script>
 
 <div class="container">
-  <h1>Array and Vector Visu</h1>
+  <h1>Array Visu</h1>
   <label for="array-size">Size: {array_size}</label>
   <input
     id="array-size"
@@ -135,6 +135,7 @@
     border-radius: 1vw;
     padding: 3vw 4vw 5vw 2vw;
     text-align: left;
+    white-space: nowrap;
   }
 
   input::-webkit-outer-spin-button,
@@ -171,6 +172,10 @@
 
   #label-cb {
     margin-left: 1vw;
+  }
+
+  li {
+    margin-bottom: 2.5vh;
   }
 
   li::marker {
