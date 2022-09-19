@@ -45,7 +45,7 @@
       {#if show_indices}
         <span transition:fade class="index">{idx}</span>
       {/if}
-      <div class="box" contenteditable="true" transition:slide>
+      <div class="box" transition:slide>
         {elem}
       </div>
     {/each}
