@@ -10,10 +10,12 @@
     array_view = !array_view;
   }}>Swap</button
 >
+<h3>Made with ❤️ by Justin</h3>
 {#if array_view}
   <Array />
 {:else}
   <Vector />
 {/if}
 
-<style></style>
+<style>
+</style>
